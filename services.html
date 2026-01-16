@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  background: #0077cc;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background: #ffcc00;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background: #e6b800;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Services Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 12px 0 6px;
+  color: #222;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Destinations */
+#destinations ul {
+  list-style: none;
+}
+
+#destinations li {
+  background: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+</style>
+<body>
+      <header>
+    <h1>🚗 Bapi Car Travels</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="#destinations">Destinations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+    <section id="services">
+  <h2>Our Cares</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="car3.jpg" alt="Car Rental">
+      <h3>Car Rentals</h3>
+      <p><b>5 saktipit package 5000 from <h4>Kankalitala,</h4>Fullora tala,nandakasyra tala,Tarapit,nalhatiswari for one day.</b></p>
+    </div>
+
+    <div class="card">
+      <img src="car5.jpg" alt="Trip Planning">
+      <h3>Trip Planning</h3>
+      <p><b>Package for one day 5000 <h4>Massanger Dam,</h4>Brawkaswar,mamavagne-pathor,Chintai Dam.</b></p>
+    </div>
+
+    <div class="card">
+      <img src="car6.jpg" alt="Long Distance Travel">
+      <h3>Long Distance Travel</h3>
+      <p>Safe and reliable long-distance car travel.</p>
+    </div>
+    <div class="card">
+      <img src="car7.jpg" alt="Car Rental">
+      <h3>PACKAGE 1</h3>
+      <p>Comfortable and affordable cars for every journey.</p>
+    </div>
+
+    <div class="card">
+      <img src="car8.jpg" alt="Trip Planning">
+      <h3>PACKAGE 2</h3>
+      <p>Well-planned routes for a smooth travel experience.</p>
+    </div>
+
+    <div class="card">
+      <img src="car9.jpg" alt="Long Distance Travel">
+      <h3>PACKAGE 3</h3>
+      <p>Safe and reliable long-distance car travel.</p>
+    </div>
+    <div class="card">
+      <img src="car10.jpg" alt="Car Rental">
+      <h3>PACKAGE 4</h3>
+      <p>Comfortable and affordable cars for every journey.</p>
+    </div>
+
+    <div class="card">
+      <img src="car5.jpg" alt="Trip Planning">
+      <h3>PACKAGE 5</h3>
+      <p>Well-planned routes for a smooth travel experience.</p>
+    </div>
+
+    <div class="card">
+      <img src="car6.jpg" alt="Long Distance Travel">
+      <h3>PACKAGE 6</h3>
+      <p>Safe and reliable long-distance car travel.</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
